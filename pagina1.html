@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Act2</title>
+    <title>PAGINA1</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
          body{
@@ -13,7 +13,7 @@
             padding: 0;
         }
         nav{
-            background-color: blueviolet;
+            background-color: black;
             padding: 10px;
         }
         nav a{
@@ -23,33 +23,53 @@
             font-size: 18px;
         }
         h1{
-            font-size: 36px;
-            margin-top: 20px;
+            color: #dc3545;
         }
         .container{
-           margin-top: 50px; 
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
         img{
             width: auto;
             height: 300px;
             border-color: black;
         }
+        .btn-primary {
+            background-color: #28a745;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #218838;
+        }
         .credits{
             margin-top: 50px;
             height: 300px;
             border: 5px solid black;
         }
+
     </style>
 </head>
 <body>
-    <nav>
-        <a href="">Página 1</a>
-        <a href="">Página 2</a>
-        <a href="">Página 3</a>
+    <nav class="p-2">
+        <a href="index.html">inicio</a>
+        <a href="pagina1.html">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
     </nav>
-    <div class="container">
-        <img src="rata.jpg" alt="Una rata de ejemplo" 30px>
-    <h1>Mi primera pagina con github bienvenidos</h1>
+    <div class="container mt-4">
+        <h1>Mis comidas Favoritas</h1>
+        <p>A mi me encanta la pizza, especialmente con ingredientes como champiñones y extra pepperoni. 
+            Es la mas basica pero es simplemente muy maravillosa, mas con extra queso</p>
+        <img src="Pizza.jpeg" alt="Una pizza deli">
+        <p>Otra de mis comidas favoritas es el sushi. Desde los makis hasta el sashimi, disfrututo 
+            la fescura del pescado y la varieda de combinaciones</p>
+            <img src="sushi.jpeg" alt="sushi del que me gusta">
+        <p>Finalmente, no puedo dejar fuera las hamburguesas. 
+            Una buena hamburguesa con carne jugosa, queso derretido y pan tostado esta conmadre</p>
+            <img src="hamburguesa.jpg" alt="Una hamburguesa como me gusta">
     </div>
     <div class="credits">
         <p>Desarrollado por Armando Valdez 2113921 - &copy; 2025</p>
